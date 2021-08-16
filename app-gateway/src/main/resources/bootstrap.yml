@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: app-gateway
+  profiles:
+    active: dev
+  cloud:
+    config:
+      #uri: http://localhost:7777
+      uri: http://app-config-server:7777

@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: app-invoice
+server:
+  port: 7081
+
